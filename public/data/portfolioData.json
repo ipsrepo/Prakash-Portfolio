@@ -73,6 +73,15 @@
       "Swagger",
       "Micro Services Architecture"
     ],
+    "UI/UX & Performance": [
+      "Responsive design",
+      "animations",
+      "WCAG",
+      "Figma",
+      "reusable components",
+      "CLS & LCP optimization",
+      "debugging"
+    ],
     "testingAndTools": [
       "Jest",
       "React Testing Library",
