@@ -28,7 +28,7 @@ export interface IContentCard {
     details: Array<string>
 }
 export interface IPageHeadings {
-    resume: PageHeadings
+    [section: string]: PageHeadings
 }
 
 export interface PageHeadings {

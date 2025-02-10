@@ -13,6 +13,10 @@
     "resume": {
       "title": "Resume",
       "text": "Demonstrate my skills, experience, projects and educations"
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "Reach Out Anytime"
     }
   },
   "social": [
