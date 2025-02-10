@@ -5,7 +5,7 @@ import Content from './Content';
 const Main = () => {
     return (
         <div className="h-full w-full max-w-[1600px] mx-auto pt-20">
-            <div className="flex lg:flex-row-reverse sm:flex-col ">
+            <div className="flex lg:flex-row-reverse xs:flex-col ">
                 <Content />
                 <Profile />
             </div>
