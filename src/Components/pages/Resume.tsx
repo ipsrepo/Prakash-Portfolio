@@ -6,6 +6,7 @@ import ContentCard from '../container/Utils/ContentCard';
 import { EducationCardProps, IContentCard } from '../../Context/data.interface';
 import SkillsExpertise from '../container/Utils/SkillsExpertise';
 import EducationCard from '../container/Utils/EducationCard';
+import DownloadResume from '../container/Utils/DownloadResume';
 
 const Resume = () => {
     const { data } = useContext(DataContext);
@@ -30,7 +31,13 @@ const Resume = () => {
     return (
         <>
             <ContentTitle content={data.pageHeadings.resume} />
-            <section className='px-4'>
+            <section className='px-4 relative'>
+
+                <DownloadResume className=' hover:text-primary
+                absolute flex align-middle 
+                bg-light text-sm px-4 py-1 
+                text-pri-font border 
+                border-line right-0 mr-4' />
 
                 <SectionTitle>Skills & Expertise</SectionTitle>
                 <SkillsExpertise content={data.expertise} />
