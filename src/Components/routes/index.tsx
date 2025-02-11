@@ -10,6 +10,7 @@ import React, {lazy} from 'react';
 
 const Resume = lazy(() => import('../pages/Resume'))
 const Contact = lazy(()=> import('../pages/Contact'))
+const Skills = lazy(()=> import('../pages/Skills'))
 
 
 
@@ -38,8 +39,9 @@ const routes:RouteConfig[] = [
         title: 'Experience',
     },
     {
-        path: '/stats',
-        title: 'Stats',
+        path: '/skills',
+        title: 'Skills',
+        component: Skills
     },
     {
         path: '/contact',

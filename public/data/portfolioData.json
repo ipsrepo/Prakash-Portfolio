@@ -16,33 +16,289 @@
     },
     "contact": {
       "title": "Contact",
-      "text": "Reach Out Anytime"
+      "text": "Please feel free to reach out anytime"
+    },
+    "skills": {
+      "title": "Tech Stack & Proficiency",
+      "text": "A Journey of Continuous Learning"
     }
   },
   "social": [
     {
       "title": "Linkedin",
-      "url": "https://www.linkedin.com/in/prakaships/"
+      "url": "https://www.linkedin.com/in/prakaships/",
+      "icon": "linkedin"
     },
     {
       "title": "Dribbble",
-      "url": "http://dribbble.com/prakaships"
+      "url": "http://dribbble.com/prakaships",
+      "icon": "dribbble"
     },
     {
       "title": "Github",
-      "url": "https://github.com/ipsrepo"
+      "url": "https://github.com/ipsrepo",
+      "icon": "github"
     }
   ],
 
   "mainSkills": [
+    "Javascript",
     "React",
     "Typescript",
-    "Javascript",
     "Redux",
     "Angular",
     "AEM",
     "HTML/CSS",
     "UI/UX"
+  ],
+
+  "skillsRating": [
+    {
+      "name": "JavaScript",
+      "rating": "4.5",
+      "category": "Frontend Development",
+      "years": "5"
+    },
+    {
+      "name": "TypeScript",
+      "rating": "4.2",
+      "category": "Frontend Development",
+      "years": "4"
+    },
+    {
+      "name": "HTML5",
+      "rating": "5.0",
+      "category": "Frontend Development",
+      "years": "6"
+    },
+    {
+      "name": "CSS3",
+      "rating": "4.7",
+      "category": "Frontend Development",
+      "years": "6"
+    },
+    {
+      "name": "SCSS",
+      "rating": "4.3",
+      "category": "Frontend Development",
+      "years": "5"
+    },
+    {
+      "name": "React",
+      "rating": "4.8",
+      "category": "Frameworks & Libraries",
+      "years": "5"
+    },
+    {
+      "name": "Angular",
+      "rating": "4.0",
+      "category": "Frameworks & Libraries",
+      "years": "3"
+    },
+    {
+      "name": "Hooks",
+      "rating": "4.6",
+      "category": "Frameworks & Libraries",
+      "years": "4"
+    },
+    {
+      "name": "Redux",
+      "rating": "4.7",
+      "category": "Frameworks & Libraries",
+      "years": "4"
+    },
+    {
+      "name": "Thunk",
+      "rating": "4.2",
+      "category": "Frameworks & Libraries",
+      "years": "3"
+    },
+    {
+      "name": "Saga",
+      "rating": "4.0",
+      "category": "Frameworks & Libraries",
+      "years": "3"
+    },
+    {
+      "name": "NGRX",
+      "rating": "3.9",
+      "category": "Frameworks & Libraries",
+      "years": "2"
+    },
+    {
+      "name": "RXJS",
+      "rating": "4.1",
+      "category": "Frameworks & Libraries",
+      "years": "3"
+    },
+    {
+      "name": "Alpine.js",
+      "rating": "3.5",
+      "category": "Frameworks & Libraries",
+      "years": "2"
+    },
+    {
+      "name": "TailwindCSS",
+      "rating": "4.6",
+      "category": "Frameworks & Libraries",
+      "years": "3"
+    },
+    {
+      "name": "Bootstrap",
+      "rating": "4.7",
+      "category": "Frameworks & Libraries",
+      "years": "5"
+    },
+    {
+      "name": "PrimeNG",
+      "rating": "4.3",
+      "category": "Frameworks & Libraries",
+      "years": "3"
+    },
+    {
+      "name": "REST APIs",
+      "rating": "4.8",
+      "category": "API Integration & Micro Service",
+      "years": "6"
+    },
+    {
+      "name": "GraphQL",
+      "rating": "4.2",
+      "category": "API Integration & Micro Service",
+      "years": "4"
+    },
+    {
+      "name": "Swagger",
+      "rating": "4.1",
+      "category": "API Integration & Micro Service",
+      "years": "4"
+    },
+    {
+      "name": "Micro Services Architecture",
+      "rating": "4.5",
+      "category": "API Integration & Micro Service",
+      "years": "5"
+    },
+    {
+      "name": "Responsive design",
+      "rating": "4.9",
+      "category": "UI/UX & Performance",
+      "years": "6"
+    },
+    {
+      "name": "Animations",
+      "rating": "4.2",
+      "category": "UI/UX & Performance",
+      "years": "3"
+    },
+    {
+      "name": "WCAG",
+      "rating": "4.5",
+      "category": "UI/UX & Performance",
+      "years": "4"
+    },
+    {
+      "name": "Figma",
+      "rating": "4.0",
+      "category": "UI/UX & Performance",
+      "years": "3"
+    },
+    {
+      "name": "Reusable components",
+      "rating": "4.7",
+      "category": "UI/UX & Performance",
+      "years": "5"
+    },
+    {
+      "name": "CLS & LCP optimization",
+      "rating": "4.6",
+      "category": "UI/UX & Performance",
+      "years": "5"
+    },
+    {
+      "name": "Debugging",
+      "rating": "4.8",
+      "category": "UI/UX & Performance",
+      "years": "6"
+    },
+    {
+      "name": "Jest",
+      "rating": "4.3",
+      "category": "Testing & Tools",
+      "years": "4"
+    },
+    {
+      "name": "React Testing Library",
+      "rating": "4.1",
+      "category": "Testing & Tools",
+      "years": "3"
+    },
+    {
+      "name": "Cypress",
+      "rating": "4.0",
+      "category": "Testing & Tools",
+      "years": "3"
+    },
+    {
+      "name": "Jasmine",
+      "rating": "3.9",
+      "category": "Testing & Tools",
+      "years": "2"
+    },
+    {
+      "name": "Karma",
+      "rating": "3.8",
+      "category": "Testing & Tools",
+      "years": "2"
+    },
+    {
+      "name": "TDD",
+      "rating": "4.5",
+      "category": "Testing & Tools",
+      "years": "5"
+    },
+    {
+      "name": "Docker",
+      "rating": "4.4",
+      "category": "Testing & Tools",
+      "years": "4"
+    },
+    {
+      "name": "GG Shield",
+      "rating": "4.2",
+      "category": "Testing & Tools",
+      "years": "3"
+    },
+    {
+      "name": "GitHub",
+      "rating": "4.9",
+      "category": "Version Control",
+      "years": "6"
+    },
+    {
+      "name": "Bitbucket",
+      "rating": "4.0",
+      "category": "Version Control",
+      "years": "4"
+    },
+    {
+      "name": "GitLab",
+      "rating": "4.1",
+      "category": "Version Control",
+      "years": "4"
+    },
+    {
+      "name": "Azure DevOps",
+      "rating": "4.3",
+      "category": "Version Control",
+      "years": "5"
+    },
+    {
+      "name": "Bamboo",
+      "rating": "3.8",
+      "category": "Version Control",
+      "years": "3"
+    }
   ],
 
   "expertise": {
@@ -67,7 +323,7 @@
       "Bootstrap",
       "PrimeNG"
     ],
-    "api Integration & micro service": [
+    "API Integration & micro service": [
       "REST APIs",
       "GraphQL",
       "Swagger",
@@ -82,7 +338,7 @@
       "CLS & LCP optimization",
       "debugging"
     ],
-    "testingAndTools": [
+    "testing & Tools": [
       "Jest",
       "React Testing Library",
       "Cypress",

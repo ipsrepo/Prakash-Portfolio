@@ -33,11 +33,12 @@ const Resume = () => {
             <ContentTitle content={data.pageHeadings.resume} />
             <section className='px-4 relative'>
 
-                <DownloadResume className=' hover:text-primary
+                <DownloadResume className='hover:text-blue hover:bg-white
                 absolute flex align-middle 
-                bg-light text-sm px-4 py-1 
-                text-pri-font border 
-                border-line right-0 mr-4' />
+                border-accent
+                bg-accent text-sm px-4 py-1 
+                text-white border 
+                right-0 mr-4' />
 
                 <SectionTitle>Skills & Expertise</SectionTitle>
                 <SkillsExpertise content={data.expertise} />

@@ -6,8 +6,10 @@ export interface IContext {
 export interface IData {
     name: string;
     title: string;
-    about: IAbout
+    about: IAbout;
+    contact: IContact;
     mainSkills: Array<string>;
+    skillsRating: Array<ISKillsRating>
     expertise: IExpertise;
     pageHeadings: IPageHeadings
     social: Array<ISocial>;
@@ -15,6 +17,17 @@ export interface IData {
     projects: Array<IContentCard>;
     education: Array<IEducation>;
     certification: Array<ICertification>
+}
+
+export interface IContact {
+    [section: string]: string[];
+}
+
+export interface ISKillsRating {
+    name: string,
+    rating: string,
+    category: string,
+    years?: string
 }
 
 export interface IContentCard {
@@ -39,6 +52,7 @@ export interface PageHeadings {
 export interface ISocial {
     title: string;
     url: string;
+    icon?: string
 }
 
 export interface IAbout {

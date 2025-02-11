@@ -14,7 +14,7 @@ module.exports = {
     colors: {
       white: "#ffffff",
       primary: "#111c44",
-      // 'primary': '#1b2559',
+      accent: '#0b6dc3',
       "pri-font": "#5c617e",
       "sec-font": "#a3aed0",
       line: "#cfd4db",
