@@ -11,7 +11,7 @@ const Layout = () => {
     return <SuspensePage />;
   }
   return (
-    <div className="h-screen">
+    <div className="h-screen overflow-auto">
       <Header />
       <Main />
     </div>

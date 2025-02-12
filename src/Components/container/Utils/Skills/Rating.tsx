@@ -10,7 +10,10 @@ const Rating: React.FC<RatingProps> = (props) => {
   const res = Array.from({ length: TOTAL_BARS }, (_, i) => {
     return (
       <p
-        className={`h-3 w-12 mr-0.25 border border-line ${rating-- > 0 ? "bg-accent border-accent" : "bg-white"}  `}
+        key={i}
+        className={`h-3 w-12 mr-0.25 border border-line transition_animation
+          ${rating-- > 0 ? "bg-accent border-accent" : "bg-white"}
+          rounded-bl-full rounded-tr-full`}
       ></p>
     );
   });

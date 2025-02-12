@@ -3,3 +3,5 @@ export const SOCIAL_LINK_TYPE = {
   LINK_ONLY: "LINK_ONLY",
   BOTH: "BOTH",
 };
+
+export const ALL_CATEGORY = "All";

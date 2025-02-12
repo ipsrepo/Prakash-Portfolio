@@ -20,3 +20,44 @@ body {
 .section {
   @apply p-6 pb-2;
 }
+
+header .navigation {
+  display: flex;
+  flex-direction: row;
+  @apply bg-white;
+}
+
+.transition_animation {
+  @apply transition;
+  @apply delay-100;
+  @apply duration-500;
+  @apply ease-in-out;
+}
+
+header .mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .mobile-nav {
+    display: block;
+    @apply absolute;
+    @apply right-0;
+    @apply top-20;
+    box-shadow: -9px 9px 18px 0px #22045d17;
+  }
+  header .mobile-nav .navigation {
+    flex-direction: column;
+    align-items: center;
+    @apply w-40;
+    @apply gap-4;
+    @apply py-8;
+  }
+
+  header .desktop-nav {
+    display: none;
+  }
+  header .navigation a {
+    border: none;
+  }
+}

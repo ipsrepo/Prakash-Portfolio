@@ -37,6 +37,7 @@ const Resume = () => {
                 absolute flex align-middle 
                 border-accent
                 bg-accent text-sm px-4 py-1 
+                transition duration-300 ease-in-out hover:-translate-y-1
                 text-white border 
                 right-0 mr-4"
         />
