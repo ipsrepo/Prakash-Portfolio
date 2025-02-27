@@ -1,10 +1,10 @@
-import React, { useCallback, useContext, useMemo, useState } from "react";
+import React, {useCallback, useContext, useMemo, useState} from "react";
 import ContentTitle from "../container/Utils/ContentTitle";
 import DataContext from "../../Context/DataContext";
-import { ISKillsRating } from "../../Context/data.interface";
+import {ISKillsRating} from "../../Context/data.interface";
 import Rating from "../container/Utils/Skills/Rating";
 import CategoryFilter from "../container/Utils/Skills/CategoryFilter";
-import { ALL_CATEGORY } from "../common/page.constant";
+import {ALL_CATEGORY} from "../common/page.constant";
 
 const Skills = () => {
   const { data } = useContext(DataContext);
@@ -14,9 +14,10 @@ const Skills = () => {
     return (
       <div className="flex flex-row items-center justify-evenly my-8 w-full text-xs">
         <span className="w-24 text-xs font-bold">{skill.name}</span>
+          <span className="text-xs text-sec-font">{skill.years} Years</span>
         <Rating rating={skill.rating} />
         <span className="font-bolder">{skill.rating} </span>
-        <span className="w-16 text-xs text-sec-font">{skill.years} Years</span>
+
       </div>
     );
   });
@@ -45,8 +46,10 @@ const Skills = () => {
   return (
     <>
       <ContentTitle content={data.pageHeadings.skills} />
-      <CategoryFilter category={category} onSelect={handleCategoryFilter} />
-      {skills}
+        <div className="section">
+            <CategoryFilter category={category} onSelect={handleCategoryFilter}/>
+            {skills}
+        </div>
     </>
   );
 };

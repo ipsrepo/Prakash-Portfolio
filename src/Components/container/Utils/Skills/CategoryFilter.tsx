@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
+
 interface CategoryFilterProps {
   category: string[];
   onSelect: (name: string) => void;
@@ -28,8 +29,8 @@ const CategoryFilter: React.FC<CategoryFilterProps> = (props) => {
   }, [props]);
 
   return (
-    <div className="flex flex-wrap px-2 pt-6 pb-4 relative">
-      <p className="text-sec-font top-0.5 right-2 absolute scale-75">
+      <div className="flex flex-wrap py-4 relative">
+        <p className="text-sec-font top-0 right-2 absolute scale-75">
         Press escape key to clear filter
       </p>
       {props?.category?.map((category: string, index) => (

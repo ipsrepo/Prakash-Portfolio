@@ -39,12 +39,16 @@ header .mobile-nav {
 }
 
 @media only screen and (max-width: 1024px) {
+  .section {
+    @apply p-4 pb-2;
+  }
+
   header .mobile-nav {
     display: block;
     @apply absolute;
     @apply right-0;
     @apply top-20;
-    box-shadow: -9px 9px 18px 0px #22045d17;
+    box-shadow: -9px 9px 18px 0 #22045d17;
   }
   header .mobile-nav .navigation {
     flex-direction: column;

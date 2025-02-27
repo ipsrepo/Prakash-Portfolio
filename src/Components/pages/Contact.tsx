@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import DataContext from "../../Context/DataContext";
 import ContentTitle from "../container/Utils/ContentTitle";
 import SocialLink from "../container/Utils/SocialLink";
@@ -24,6 +24,19 @@ const Contact = () => {
             {data?.contact?.phone} ({data?.contact?.location})
           </span>
         </p>
+
+        <p className="text-sm text-sec-font italic">
+          Message me @ {" : "}
+          <a
+              className="text-pri-font tracking-wide underline"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={`https://wa.me/${data?.contact?.phone.toString().replace(/\s|\+/g, "")}`}
+          >
+            WhatsApp
+          </a>
+        </p>
+
         <SocialLink />
       </div>
     </>
