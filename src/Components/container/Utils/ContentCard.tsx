@@ -1,6 +1,6 @@
-import React, { useMemo } from "react";
-import { IContentCard } from "../../../Context/data.interface";
-import { formatText } from "./formatText";
+import React, {useMemo} from "react";
+import {IContentCard} from "../../../Context/data.interface";
+import {formatText} from "./formatText";
 
 const ContentCard: React.FC<{ content: IContentCard }> = ({ content }) => {
   const { title, subTitle, period, technology, details } = content;
@@ -28,7 +28,7 @@ const ContentCard: React.FC<{ content: IContentCard }> = ({ content }) => {
   }, [technology]);
 
   const periodEle = (
-    <span className="text-sm text-pri-font py-1">
+      <span className="text-sm text-pri-font py-1 italic">
       {period.from} - {period.to}
     </span>
   );
