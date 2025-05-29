@@ -418,7 +418,7 @@
         "to": "Present"
       },
       "technology": [
-        "Javascript",
+        "Core Javascript",
         "Adobe EDS",
         "preact",
         "GraphQL",
@@ -477,7 +477,7 @@
   "education": [
     {
       "title": "Bachelor of Engineering (Computer Science)",
-      "date": "2024",
+      "date": "2013",
       "school": "Anna University, Chennai"
     }
   ],
@@ -486,13 +486,19 @@
       "title": "JavaScript Algorithms and Data Structures Masterclass",
       "date": "Nov 2024",
       "school": "Udemy",
-      "credentials": "http://www.google.com"
+      "credentials": "https://www.udemy.com/certificate/UC-ddbdc681-73b6-43ee-b812-4fb21bac0895/"
     },
     {
       "title": "Learning GitHub",
       "date": "Oct 2023",
       "school": "LinkedIn",
-      "credentials": "http://www.google.com"
+      "credentials": "https://www.linkedin.com/learning/certificates/1ee50a419443c0b38437735200334bfce910ab03d2673c2e2566225f8ae3a8f4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BahTrhXg9Txmng61rewXEiA%3D%3D"
+    },
+    {
+      "title": "Javascript Coding Interview Preparation",
+      "date": "Dec 2024",
+      "school": "Simplilearn",
+      "credentials": "https://simpli-web.app.link/e/SfiZt9rcfPb"
     }
   ],
   "uiWorks": [

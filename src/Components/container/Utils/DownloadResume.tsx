@@ -6,7 +6,7 @@ interface DownloadResumeProps {
 }
 
 const DownloadResume: React.FC<DownloadResumeProps> = (props: any) => {
-    const filePath = `${process.env.PUBLIC_URL}/files/Prakash_Thangaraj_Lead_Front_End_Engineer_2015.pdf`;
+    const filePath = `${process.env.PUBLIC_URL}/files/Prakash_Thangaraj_Lead_Front_End_Engineer_2025.pdf`;
 
   return (
     <a {...props} href={filePath} download>
