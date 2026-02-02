@@ -2,8 +2,10 @@ import React, {useMemo} from "react";
 import {IContentCard} from "../../../Context/data.interface";
 import {formatText} from "./formatText";
 
-const ContentCard: React.FC<{ content: IContentCard }> = ({ content }) => {
-  const { title, subTitle, period, technology, details } = content;
+const ContentCard: React.FC<{ content: IContentCard, isDetailed:boolean }> = ({ content, isDetailed }) => {
+  const { title, subTitle, period, technology, summary, detailed } = content;
+
+  const details =  isDetailed ? detailed : summary;
 
   const responsibilities = useMemo(
     () => (

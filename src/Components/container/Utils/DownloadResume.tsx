@@ -2,17 +2,27 @@ import React from "react";
 import {DownloadIcon} from "../../../icons";
 
 interface DownloadResumeProps {
-  className?: string;
+    label: string;
+    filePath: string
 }
 
-const DownloadResume: React.FC<DownloadResumeProps> = (props: any) => {
-    const filePath = `${process.env.PUBLIC_URL}/files/Prakash_Thangaraj_Lead_Front_End_Engineer_2025.pdf`;
+const DownloadResume: React.FC<DownloadResumeProps> = ({label, filePath}) => {
+    const fullFilePath = `${process.env.PUBLIC_URL}/files/${filePath}`;
 
   return (
-    <a {...props} href={filePath} download>
+      <a className="hover:text-accent hover:bg-white
+                flex align-middle
+                w-full
+                mt-4
+                text-center
+                justify-center
+                border-accent
+                bg-accent text-xs px-4 py-1
+                transition duration-300 ease-in-out hover:-translate-y-1
+                text-white border" href={fullFilePath} download>
       {" "}
       <DownloadIcon className="w-5 mr-2" />
-      <span className="xs:hidden lg:block">Download</span>
+          <span className="xs:hidden lg:block">{label}</span>
     </a>
   );
 };

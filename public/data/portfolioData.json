@@ -1,26 +1,36 @@
 {
   "name": "Prakash Thangaraj",
-  "title": "Lead Front-End Engineer / UX Specialist",
+  "title": "Lead Full-Stack Engineer",
   "contact": {
     "location": "India",
     "phone": "+91 8870690977",
     "email": "mailfromprakash@gmail.com"
   },
+  "onePageResume": "Prakash_Thangaraj_Full_Stack_Engineer.pdf",
+  "detailedResume": "Prakash_Thangaraj_Full_Stack_Engineer.pdf",
   "about": {
-    "summary": "Frontend Developer with over 10 years of experience in building high-performance web applications and 5+ years in UI/UX design."
+    "summary": "Full-stack engineer with over 10+ years of experience in building high-performance web applications and 5+ years in UI/UX design."
   },
   "pageHeadings": {
     "resume": {
       "title": "Resume",
-      "text": "Demonstrate my skills, experience, projects and educations"
+      "text": "Showcasing my professional journey — skills, experience, projects, and education."
     },
     "contact": {
       "title": "Contact",
-      "text": "Please feel free to reach out anytime"
+      "text": "Feel free to get in touch for collaboration or opportunities."
     },
     "skills": {
       "title": "Tech Stack & Proficiency",
-      "text": "A Journey of Continuous Learning"
+      "text": "Exploring my evolving technical expertise and continuous growth."
+    },
+    "project": {
+      "title": "Projects",
+      "text": "A collection of real-world projects that highlight my problem-solving, creativity, and technical skills."
+    },
+    "experience": {
+      "title": "Experience",
+      "text": "An overview of my professional roles, key responsibilities, and contributions across various organizations."
     }
   },
   "social": [
@@ -45,9 +55,12 @@
     "Javascript",
     "React",
     "Typescript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
     "Redux",
     "Angular",
-    "AEM",
+    "AEM & EDS",
     "HTML/CSS",
     "UI/UX"
   ],
@@ -323,9 +336,16 @@
       "Bootstrap",
       "PrimeNG"
     ],
-    "API Integration & micro service": [
+    "Platforms/CMS": [
+      "Adobe Experience Manager (AEM)",
+      "Adobe Edge Delivery Services (EDS, DOM-based rendering)"
+    ],
+    "APIs & Backend": [
       "REST APIs",
       "GraphQL",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
       "Swagger",
       "Micro Services Architecture"
     ],
@@ -372,12 +392,20 @@
         "from": "Apr 2024",
         "to": "present"
       },
-      "details": [
+      "summary": [
         "Developed controllers, mappers, and components using *TypeScript* and *Alpine.js* for seamless integration with *AEM* and *GraphQL* APIs. Effective collaboration between front-end, AEM, and architects.",
         "Engineered a high-performance, *JavaScript*-driven page with minimal *Preact*, optimizing DOM manipulation and event handling while leveraging *Adobe EDS* for content authoring.",
         "Attended *code quality* sessions to deepen understanding of best practices and optimized performance through strategic problem-solving.",
         "Achieved 95% code coverage with Jest and ensured high-quality code. Conducted accessibility testing with NVIDIA tools for inclusive, user-friendly applications.",
         "Provided mentorship to junior developers, conducted code reviews, and ensured adherence to best practices while maintaining code security using Git Guardian."
+      ],
+      "detailed": [
+        "Developed high-performance, dynamic web pages using core *JavaScript*, *TypeScript*, and *Alpine.js*, seamlessly integrated with *Adobe Experience Manager (AEM)* and *Adobe Edge Delivery Services (EDS)* for modular content authoring and rendering.",
+        "Engineered *custom JavaScript events, DOM manipulation*, and *PubSub-based* communication patterns to enable fully interactive, responsive, and data-synchronized user experiences across multiple repositories.",
+        "Designed and implemented lightweight Preact components to enhance performance and maintain a modular front-end architecture optimized for speed and scalability.",
+        "Integrated *GraphQL & REST APIs* for dynamic data retrieval and implemented page routing and *custom event listeners*, ensuring a *mobile-first approach* for cross-device responsiveness.",
+        "Ensured high quality, secure code by achieving *95% Jest test coverage*, performing *WCAG accessibility* testing with NVIDIA tools, and enforcing security with Git Guardian (GG Shield).",
+        "Collaborated in an agile environment using *GitHub, GitLab, Jira*, and *Docker* for version control, *CI/CD*, and environment management while mentoring junior developers and conducting peer code reviews to uphold best practices."
       ]
     },
     {
@@ -387,12 +415,13 @@
         "from": "Sep 2023",
         "to": "Jan 2024"
       },
-      "details": [
+      "summary": [
         "Enhanced the Extract Builder application for the UK NHS, streamlining data querying and reporting for government submissions.",
         "Generated advanced search features and robust report generation for comprehensive healthcare data analysis.",
         "Managed clinical and ethnicity codes, ensuring accurate and compliant data handling for government reports.",
         "Refined application functionality using the Cohort-builder-kit, Query Manager, and Query Builder Library for seamless integration."
-      ]
+      ],
+      "detailed": []
     },
     {
       "title": "Lead Frontend Developer & UI/UX Expert",
@@ -401,13 +430,14 @@
         "from": "Apr 2014",
         "to": "Sep 2023"
       },
-      "details": [
+      "summary": [
         "Delivered 10+ apps, and chatbots using React, Angular, JavaScript, HTML5, CSS3, and SCSS with expertise in Redux, NGRX, and RXJS for state management while managing multiple projects simultaneously.",
         "Integrated REST APIs with front-end applications and documented APIs using Swagger for seamless backend communication and API management.",
         "Led UI/UX design, built 50+ user-centric, responsive interfaces focused on enhancing user experience using Adobe XD, Photoshop, and Illustrator, with select designs showcased on Dribbble.",
         "Ensured code quality through TDD, unit testing with Jest, Jasmin, Karma, and React Testing Library, maintaining good code coverage, and collaborated via GitHub, Bitbucket, and Azure DevOps.",
         "Managed projects using Agile (Scrum) methodologies, collaborating with Inter-Team Cooperation and conducting code reviews to drive performance and ensure best practices."
-      ]
+      ],
+      "detailed": []
     }
   ],
   "projects": [
@@ -419,15 +449,20 @@
       },
       "technology": [
         "Core Javascript",
+        "jest",
+        "DOM",
         "Adobe EDS",
         "preact",
-        "GraphQL",
-        "DOM"
+        "REST",
+        "CRX",
+        "GitHub",
+        "Jira"
       ],
-      "details": [
+      "summary": [
         "Engineered a high-performance, JavaScript-driven page with minimal Preact, optimizing DOM manipulation and event handling.",
         "Leveraged Adobe EDS for seamless content authoring and dynamic page updates."
-      ]
+      ],
+      "detailed": []
     },
     {
       "title": "T-Mobile",
@@ -436,42 +471,47 @@
         "to": "Feb 2025"
       },
       "technology": ["TypeScript", "AEM", "Alpin.js", "GraphQL", "Jest"],
-      "details": [
+      "summary": [
         "Created dynamic components with TypeScript, Alpine.js, and unified them with AEM via GraphQL and ensured code security with GG Shield.",
         "Utilized Docker for environment management and CRX package manager for handle AEM packages."
-      ]
+      ],
+      "detailed": []
     },
     {
       "title": "Extract Builder / Feasibility Service",
       "period": { "from": "Sep 2023", "to": "Jan 2024" },
-      "details": [
+      "summary": [
         "Worked on Query Builder application using React (TypeScript), Redux, and REST API integration.",
         "Constructed features for search creation, allowing doctors to filter datasets based on various criteria"
-      ]
+      ],
+      "detailed": []
     },
     {
       "title": "Matrix eServices",
       "period": { "from": "Mar 2019", "to": "Sep 2023" },
-      "details": [
+      "summary": [
         "Built insurance eClaim projects using Angular, PrimeNG, NGRX and RXJS.",
         "Build multi repo level components, modal, mock data and Templates, used ADO for agile and CI/CD."
-      ]
+      ],
+      "detailed": []
     },
     {
       "title": "Time Tracker",
       "period": { "from": "Apr 2022", "to": "Mar 2023" },
-      "details": [
+      "summary": [
         "Crafted a user-friendly web app for tracking employee activity using React, Redux Tool Kit,TailwindCSS and REST",
         "Solely responsible for managing the entire front-end development."
-      ]
+      ],
+      "detailed": []
     },
     {
       "title": "Assistance Chatbot",
       "period": { "from": "Apr 2018", "to": "Mar 2022" },
-      "details": [
+      "summary": [
         "Built a multi-language chatbot with voice recognition and voice playback features using Angular and Synthesized with REST APIs.",
         "Generated chart for leave planner using JavaScript to calculate and display user data, achieving functionality without relying on external libraries."
-      ]
+      ],
+      "detailed": []
     }
   ],
   "education": [

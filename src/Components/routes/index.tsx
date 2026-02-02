@@ -10,6 +10,8 @@ import React, { lazy } from "react";
 const Resume = lazy(() => import("../pages/Resume"));
 const Contact = lazy(() => import("../pages/Contact"));
 const Skills = lazy(() => import("../pages/Skills"));
+const Projects = lazy(() => import("../pages/Projects"));
+const Experiences = lazy(() => import("../pages/Experiences"));
 
 interface RouteConfig {
   path: string;
@@ -28,12 +30,14 @@ const routes: RouteConfig[] = [
     component: Resume,
   },
   {
-    path: "/project",
+    path: "/projects",
     title: "Projects",
+    component: Projects,
   },
   {
-    path: "/experience",
-    title: "Experience",
+    path: "/experiences",
+    title: "Experiences",
+    component: Experiences
   },
   {
     path: "/skills",

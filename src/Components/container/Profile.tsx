@@ -1,7 +1,8 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import DataContext from "../../Context/DataContext";
 import SocialLink from "./Utils/SocialLink";
-import { SOCIAL_LINK_TYPE } from "../common/page.constant";
+import {SOCIAL_LINK_TYPE} from "../common/page.constant";
+import DownloadResume from "./Utils/DownloadResume";
 
 const Profile = () => {
   const { data } = useContext(DataContext);
@@ -15,7 +16,7 @@ const Profile = () => {
   ));
 
   return (
-    <div className="flex-none flex flex-col items-center lg:w-1/3 xl:w-1/4 min-w-80 pt-20 px-8 md:px-4">
+    <div className="flex-none relative flex flex-col items-center lg:w-1/3 xl:w-1/4 min-w-80 pt-20 px-8 md:px-4">
       <img
         src={`${process.env.PUBLIC_URL}/assets/profile.jpg`}
         alt="Logo"
@@ -27,7 +28,18 @@ const Profile = () => {
       <h3 className="text-sm text-sec-font italic">{data.title}</h3>
       <p className="text-dark mt-2 w-full flex flex-wrap">{mainSkills}</p>
       <p className="mt-4 text-sm text-justify">{data.about.summary}</p>
-      <SocialLink type={SOCIAL_LINK_TYPE.ICON_ONLY} />
+        <DownloadResume
+            label="One-Page Resume"
+            filePath={data.onePageResume}
+        />
+
+        <DownloadResume
+            label="Detailed Resume"
+            filePath={data.detailedResume}
+        />
+
+        <SocialLink type={SOCIAL_LINK_TYPE.ICON_ONLY} />
+
     </div>
   );
 };

@@ -7,6 +7,8 @@ export interface IData {
   name: string;
   title: string;
   about: IAbout;
+  onePageResume: string;
+  detailedResume: string;
   contact: IContact;
   mainSkills: Array<string>;
   skillsRating: Array<ISKillsRating>;
@@ -38,7 +40,8 @@ export interface IContentCard {
     from: string | number;
     to: string | number;
   };
-  details: Array<string>;
+  summary: Array<string>;
+  detailed: Array<string>;
 }
 export interface IPageHeadings {
   [section: string]: PageHeadings;
